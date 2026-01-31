@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Login from "./components/Login.jsx";
-import Dashboard from "./components/Dashboard.jsx";
-import { login as apiLogin, fetchRecipes, logout } from "./apiclient.js";
+import Login from "./src/components/Login.jsx";
+import Dashboard from "./src/components/Dashboard.jsx";
+import { login as apiLogin, fetchRecipes, logout } from "./apClient.js";
 
 export default function App() {
 const [auth, setAuth] = useState(() => {
